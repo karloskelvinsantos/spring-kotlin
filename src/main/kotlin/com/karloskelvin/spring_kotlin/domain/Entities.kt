@@ -14,8 +14,3 @@ data class Driver (
     val name: String,
     val birthDate: LocalDate
 )
-
-data class PatchDriver (
-    val name: String?,
-    val birthDate: LocalDate?
-)
